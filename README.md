@@ -19,54 +19,54 @@ The goal is to create high-quality data pipelines that are dynamic, can be autom
 
     1. Create the data lake and upload data
 
-        ![Payroll Directory](/images/payroll-directory.png)
-        ![Historical Directory](/images/history-files-directory.png)
+![Payroll Directory](./images/payroll-directory.png)
+![Historical Directory](./images/history-files-directory.png)
     
     2. Create SQL Database
 
-        ![SQL Tables](/images/sql-db-tables.png)
+![SQL Tables](/images/sql-db-tables.png)
     
     3. Create a Synapse Analytics workspace and Azure Data Factory
 
-        ![Synapse External Table](/images/synapse-external-tables.png)
+![Synapse External Table](/images/synapse-external-tables.png)
     
 #### Step 2: Create Linked Services
 
     1. Create a Linked Service for Azure Data Lake and SQL Database
 
-        ![Linked Services](/images/linked-services.png)
+![Linked Services](/images/linked-services.png)
 
 #### Step 3: Create Datasets in Azure Data Factory
 
     1. Create the datasets
 
-        ![Datafactory Datasets](/images/datasets-datafactory.png)
+![Datafactory Datasets](/images/datasets-datafactory.png)
     
 #### Step 4: Create Data Flows
 
     1. Create Dataflows
 
-        ![Datafactory Dataflows](/images/dataflows-datafactory.png)
+![Datafactory Dataflows](/images/dataflows-datafactory.png)
     
     2. Create Data Aggregation and Parameterization dataflow
 
-        ![Aggregation](/images/aggregate_dataflow-df.png)
+![Aggregation](/images/aggregate_dataflow-df.png)
 
 #### Step 5: Pipeline Creation
 
     1. Create Pipeline
 
-        ![Pipeline](/images/pipeline.png)
+![Pipeline](/images/pipeline.png)
 
     2. Trigger and Monitor Pipeline
 
-        ![Pipeline run](/images/pipeline_successful_run.png)
+![Pipeline run](/images/pipeline_successful_run.png)
 
     3. Verify Pipeline run artifacts
 
-        ![Artifacts](/images/sqldb-summary-table-query.png)
-        ![dirstaging](/images/dirstaging-directory-files.png)
-        ![Synapse External](/images/synapse-external-table-query-result.png)
+![Artifacts](/images/sqldb-summary-table-query.png)
+![dirstaging](/images/dirstaging-directory-files.png)
+![Synapse External](/images/synapse-external-table-query-result.png)
     
 
 

@@ -1,0 +1,9 @@
+{
+	"name": "shplc-adf",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "33ea546e-5a0b-4a40-926b-bbdae4669d22",
+		"tenantId": "36f89077-427d-4fc3-b367-4ed7876a7bb5"
+	}
+}
